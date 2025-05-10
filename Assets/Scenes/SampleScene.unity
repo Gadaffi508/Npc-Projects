@@ -16580,6 +16580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 528904975135300923}
+  - component: {fileID: 7970964724240691618}
   m_Layer: 0
   m_Name: Upperleg_R
   m_TagString: Untagged
@@ -16587,6 +16588,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7970964724240691618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7970964724240691617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88276708168995440ab93c5691d8783c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateTransform: {fileID: 528904975135300923}
+  rotationSpeed: 50
+  isLoopRotate: 1
+  minY: -150
+  maxY: -70
+  defaultY: -110.141
 --- !u!1 &7981717279266345749
 GameObject:
   m_ObjectHideFlags: 0
