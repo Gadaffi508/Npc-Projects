@@ -5,31 +5,32 @@ public class LegStepController : MonoBehaviour
 {
     public Robot_LegRotate leftLeg;
     public Robot_LegRotate rightLeg;
-    public float stepDuration = 0.5f;
-    public float stepPause = 0.2f;
+    public float stepTime = 0.5f;
+
+    public bool isWalk = false;
 
     private void Start()
     {
-        StartCoroutine(WalkRoutine());
+        StartCoroutine(WalkCycle());
     }
 
-    IEnumerator WalkRoutine()
+    IEnumerator WalkCycle()
     {
-        while (true)
+        while (isWalk)
         {
-            leftLeg.isLoopRotate = true;
+            //ilk bekleme
             rightLeg.isLoopRotate = false;
-            yield return new WaitForSeconds(stepDuration);
+
             leftLeg.isLoopRotate = false;
 
-            yield return new WaitForSeconds(stepPause);
+            yield return new WaitForSeconds(stepTime);
 
+            //Hareket
             rightLeg.isLoopRotate = true;
-            leftLeg.isLoopRotate = false;
-            yield return new WaitForSeconds(stepDuration);
-            rightLeg.isLoopRotate = false;
 
-            yield return new WaitForSeconds(stepPause);
+            leftLeg.isLoopRotate = true;
+
+            yield return new WaitForSeconds(stepTime);
         }
     }
 }

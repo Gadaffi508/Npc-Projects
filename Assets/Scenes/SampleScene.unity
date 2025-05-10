@@ -5439,7 +5439,6 @@ MonoBehaviour:
   minY: 70
   maxY: 150
   defaultY: 110.141
-  "\u0131sRightOrLeftLeg": 0
 --- !u!4 &2602145551636469023
 Transform:
   m_ObjectHideFlags: 0
@@ -7990,7 +7989,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7681170214830584097}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.6530382, y: 0.000018922356, z: -0.000013212254, w: 0.757325}
+  m_LocalRotation: {x: 0.65303737, y: 0.000017966622, z: -0.00001887469, w: 0.7573257}
   m_LocalPosition: {x: 0.0000000036078107, y: 0.18461363, z: -0.000000003877794}
   m_LocalScale: {x: 1, y: 0.9999999, z: 0.99999994}
   m_ConstrainProportionsScale: 0
@@ -7998,7 +7997,7 @@ Transform:
   - {fileID: 1253745660966654648}
   - {fileID: 6892829802253386338}
   m_Father: {fileID: 528904975135300923}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 81.542, y: 0.001, z: -0.002}
 --- !u!1 &3724903698806602926
 GameObject:
   m_ObjectHideFlags: 0
@@ -11372,7 +11371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9096381977037390062}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.6530379, y: -0.000018939067, z: 0.00001324103, w: 0.75732523}
+  m_LocalRotation: {x: 0.65303737, y: -0.000008866413, z: 0.000027974907, w: 0.7573257}
   m_LocalPosition: {x: -0.000000008292263, y: 0.1846137, z: -0.000000002588931}
   m_LocalScale: {x: 1, y: 0.9999999, z: 0.99999994}
   m_ConstrainProportionsScale: 0
@@ -11380,7 +11379,7 @@ Transform:
   - {fileID: 1562881142774855366}
   - {fileID: 4019364000337999577}
   m_Father: {fileID: 1585131208037463119}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 81.542, y: 0.009002686, z: 0.011993408}
 --- !u!1 &5143384273178208180
 GameObject:
   m_ObjectHideFlags: 0
@@ -15918,6 +15917,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3719333538963640035}
+  - component: {fileID: 7681170214830584098}
   m_Layer: 0
   m_Name: Knee_R
   m_TagString: Untagged
@@ -15925,6 +15925,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7681170214830584098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7681170214830584097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ede30a3273e43a458744aedb1ef768d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateTransform: {fileID: 3719333538963640035}
+  rotationSpeed: 50
+  isLoopRotate: 1
+  minY: 49.697
+  maxY: 105.243
+  defaultY: 81.542
 --- !u!33 &7704395384304419776
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16627,7 +16645,6 @@ MonoBehaviour:
   minY: -150
   maxY: -70
   defaultY: -110.141
-  "\u0131sRightOrLeftLeg": 1
 --- !u!1 &7981717279266345749
 GameObject:
   m_ObjectHideFlags: 0
@@ -18381,8 +18398,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftLeg: {fileID: 2576861602168178775}
   rightLeg: {fileID: 7970964724240691618}
-  stepDuration: 0.5
-  stepPause: 0.2
+  stepTime: 1
+  isWalk: 1
 --- !u!1 &8804330903125225899
 GameObject:
   m_ObjectHideFlags: 0
@@ -19085,6 +19102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5140159913142376771}
+  - component: {fileID: 9096381977037390063}
   m_Layer: 0
   m_Name: Knee_L
   m_TagString: Untagged
@@ -19092,6 +19110,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9096381977037390063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9096381977037390062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ede30a3273e43a458744aedb1ef768d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateTransform: {fileID: 5140159913142376771}
+  rotationSpeed: 50
+  isLoopRotate: 1
+  minY: 45.205
+  maxY: 96.97699
+  defaultY: 81.542
 --- !u!4 &9123502634698700463
 Transform:
   m_ObjectHideFlags: 0

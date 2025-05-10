@@ -1,18 +1,18 @@
 using UnityEngine;
 
-public class Robot_LegRotate : IRobot_IK
+public class Robot_KneeRotate : IRobot_IK
 {
-    private float currentY;
+    private float currentX;
     private int direction = 1;
 
     public override void IK_Setup()
     {
-        currentY = defaultY;
+        currentX = defaultY;
 
         if (rotateTransform != null)
         {
             Vector3 angles = rotateTransform.localEulerAngles;
-            angles.y = defaultY;
+            angles.x = defaultY;
             rotateTransform.localRotation = Quaternion.Euler(angles);
         }
     }
@@ -25,26 +25,26 @@ public class Robot_LegRotate : IRobot_IK
 
         if (isLoopRotate)
         {
-            currentY += rotationSpeed * Time.deltaTime * direction;
+            currentX += rotationSpeed * Time.deltaTime * direction;
 
-            if (currentY >= maxY)
+            if (currentX >= maxY)
             {
-                currentY = maxY;
+                currentX = maxY;
                 direction = -1;
             }
-            else if (currentY <= minY)
+            else if (currentX <= minY)
             {
-                currentY = minY;
+                currentX = minY;
                 direction = 1;
             }
 
-            angles.y = currentY;
+            angles.x = currentX;
             rotateTransform.localRotation = Quaternion.Euler(angles);
         }
         else
         {
-            currentY = Mathf.MoveTowardsAngle(currentY, defaultY, rotationSpeed * Time.deltaTime);
-            angles.y = currentY;
+            currentX = Mathf.MoveTowardsAngle(currentX, defaultY, rotationSpeed * Time.deltaTime);
+            angles.x = currentX;
             rotateTransform.localRotation = Quaternion.Euler(angles);
         }
     }
