@@ -819,6 +819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 871707115}
+  - component: {fileID: 871707116}
   m_Layer: 0
   m_Name: FootL
   m_TagString: Untagged
@@ -841,6 +842,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 619668147}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &871707116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871707114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c430f382484144e925c097c2d33cfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Weight: 1
+  m_Data:
+    m_ConstrainedObject: {fileID: 5140159913142376771}
+    m_SourceObjects:
+      m_Length: 1
+      m_Item0:
+        transform: {fileID: 7824993010992074919}
+        weight: 1
+      m_Item1:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item2:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item3:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item4:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item5:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item6:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item7:
+        transform: {fileID: 0}
+        weight: 0
+    m_Offset: {x: 0, y: 0, z: 0}
+    m_MinLimit: -180
+    m_MaxLimit: 180
+    m_AimAxis: 4
+    m_UpAxis: 2
+    m_WorldUpType: 0
+    m_WorldUpObject: {fileID: 0}
+    m_WorldUpAxis: 2
+    m_MaintainOffset: 0
+    m_ConstrainedAxes:
+      x: 1
+      y: 1
+      z: 1
 --- !u!43 &1071857092
 Mesh:
   m_ObjectHideFlags: 0
@@ -15917,7 +15972,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3719333538963640035}
-  - component: {fileID: 7681170214830584098}
   m_Layer: 0
   m_Name: Knee_R
   m_TagString: Untagged
@@ -15925,24 +15979,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7681170214830584098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7681170214830584097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ede30a3273e43a458744aedb1ef768d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateTransform: {fileID: 3719333538963640035}
-  rotationSpeed: 50
-  isLoopRotate: 1
-  minY: 49.697
-  maxY: 105.243
-  defaultY: 81.542
 --- !u!33 &7704395384304419776
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -19102,7 +19138,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5140159913142376771}
-  - component: {fileID: 9096381977037390063}
   m_Layer: 0
   m_Name: Knee_L
   m_TagString: Untagged
@@ -19110,24 +19145,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &9096381977037390063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9096381977037390062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ede30a3273e43a458744aedb1ef768d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateTransform: {fileID: 5140159913142376771}
-  rotationSpeed: 50
-  isLoopRotate: 1
-  minY: 45.205
-  maxY: 96.97699
-  defaultY: 81.542
 --- !u!4 &9123502634698700463
 Transform:
   m_ObjectHideFlags: 0
