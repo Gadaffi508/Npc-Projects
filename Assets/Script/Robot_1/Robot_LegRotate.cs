@@ -2,17 +2,26 @@ using UnityEngine;
 
 public class Robot_LegRotate : IRobot_IK
 {
+    [Header("Leg Direction Reference")]
+    public bool ýsRightOrLeftLeg = false;
+
     private float currentY;
     private int direction = 1;
 
     public override void IK_Setup()
     {
-        rotateTransform.rotation = Quaternion.Euler(0f, defaultY, 0f);
         currentY = defaultY;
+        if (rotateTransform != null)
+        {
+            Vector3 angles = rotateTransform.localEulerAngles;
+            rotateTransform.localRotation = Quaternion.Euler(angles.x, defaultY, angles.z);
+        }
     }
 
     public override void Rotate_IK()
     {
+        if (rotateTransform == null) return;
+
         if (isLoopRotate)
         {
             currentY += rotationSpeed * Time.deltaTime * direction;
@@ -28,12 +37,15 @@ public class Robot_LegRotate : IRobot_IK
                 direction = 1;
             }
 
-            rotateTransform.rotation = Quaternion.Euler(0f, currentY, 0f);
+            Vector3 angles = rotateTransform.localEulerAngles;
+            rotateTransform.localRotation = Quaternion.Euler(angles.x, currentY, angles.z);
         }
         else
         {
             currentY = Mathf.MoveTowardsAngle(currentY, defaultY, rotationSpeed * Time.deltaTime);
-            rotateTransform.rotation = Quaternion.Euler(0f, currentY, 0f);
+
+            Vector3 angles = rotateTransform.localEulerAngles;
+            rotateTransform.localRotation = Quaternion.Euler(angles.x, currentY, angles.z);
         }
     }
 }

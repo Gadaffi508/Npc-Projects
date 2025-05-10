@@ -17,7 +17,7 @@ public abstract class IRobot_IK : MonoBehaviour
 
     void Start()
     {
-        
+        IK_Setup();
     }
 
     void Update()

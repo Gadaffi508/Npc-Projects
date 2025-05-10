@@ -5413,6 +5413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1585131208037463119}
+  - component: {fileID: 2576861602168178775}
   m_Layer: 0
   m_Name: Upperleg_L
   m_TagString: Untagged
@@ -5420,6 +5421,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2576861602168178775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2576861602168178774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88276708168995440ab93c5691d8783c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateTransform: {fileID: 1585131208037463119}
+  rotationSpeed: 50
+  isLoopRotate: 1
+  minY: 70
+  maxY: 150
+  defaultY: 110.141
+  "\u0131sRightOrLeftLeg": 0
 --- !u!4 &2602145551636469023
 Transform:
   m_ObjectHideFlags: 0
@@ -10998,6 +11018,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8785080004507244176}
+  - component: {fileID: 8785080004507244177}
   m_Layer: 0
   m_Name: Hips
   m_TagString: Untagged
@@ -16606,6 +16627,7 @@ MonoBehaviour:
   minY: -150
   maxY: -70
   defaultY: -110.141
+  "\u0131sRightOrLeftLeg": 1
 --- !u!1 &7981717279266345749
 GameObject:
   m_ObjectHideFlags: 0
@@ -18345,6 +18367,22 @@ Transform:
   - {fileID: 5659958987002370599}
   m_Father: {fileID: 6045490330300144939}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8785080004507244177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5051121187132452542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918bcfd40bddfb543839fcd25a802f3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftLeg: {fileID: 2576861602168178775}
+  rightLeg: {fileID: 7970964724240691618}
+  stepDuration: 0.5
+  stepPause: 0.2
 --- !u!1 &8804330903125225899
 GameObject:
   m_ObjectHideFlags: 0
