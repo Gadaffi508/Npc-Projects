@@ -194,6 +194,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   radius: 0.3
+  maxDistance: 3
+  smoothSpeed: 5
 --- !u!1 &292668098
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +588,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   radius: 0.3
+  maxDistance: 1
+  smoothSpeed: 5
 --- !u!1 &521844388
 GameObject:
   m_ObjectHideFlags: 0
