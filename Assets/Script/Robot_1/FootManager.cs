@@ -9,13 +9,14 @@ public class FootManager : MonoBehaviour
     public Transform leftTarget;
     public Transform rightTarget;
 
-    public NavMeshAgent agent; // Artýk NavMesh kullanýyoruz
+    public NavMeshAgent agent;
 
     public float stepThreshold = 0.25f;
     public float moveThreshold = 0.01f;
+    public float forwardStepOffset = 0.3f;
 
-    private bool isLeftTurn = true;
     private Vector3 lastBodyPos;
+    private bool isLeftTurn = true;
 
     void Start()
     {
@@ -26,38 +27,41 @@ public class FootManager : MonoBehaviour
     {
         Vector3 bodyDelta = agent.transform.position - lastBodyPos;
         float bodySpeed = bodyDelta.magnitude / Time.deltaTime;
-
         lastBodyPos = agent.transform.position;
 
-        if (bodySpeed < moveThreshold) return;
-        if (leftFoot.IsStepping || rightFoot.IsStepping) return;
+        if (bodySpeed < moveThreshold)
+            return;
+
+        // Sadece bir ayaða izin veriyoruz
+        if (leftFoot.IsStepping || rightFoot.IsStepping)
+            return;
 
         if (isLeftTurn)
         {
-            if (!leftFoot.IsStepping)
+            float dist = Vector3.Distance(leftFoot.transform.position, leftTarget.position);
+            if (dist > stepThreshold)
             {
-                Vector3 adjustedTarget = GetAdjustedTarget(leftTarget, 0.3f); // ileriye 0.3 birim at
-                leftFoot.StepTo(adjustedTarget);
+                Vector3 adjusted = GetStepPosition(leftTarget);
+                leftFoot.StepTo(adjusted, 1f); // ileri
                 isLeftTurn = false;
             }
         }
         else
         {
-            if (!rightFoot.IsStepping)
+            float dist = Vector3.Distance(rightFoot.transform.position, rightTarget.position);
+            if (dist > stepThreshold)
             {
-                Vector3 adjustedTarget = GetAdjustedTarget(rightTarget, 0.3f);
-                rightFoot.StepTo(adjustedTarget);
+                Vector3 adjusted = GetStepPosition(rightTarget);
+                rightFoot.StepTo(adjusted, 1f); // ileri
                 isLeftTurn = true;
             }
         }
 
     }
 
-    private Vector3 GetAdjustedTarget(Transform target, float forwardOffset)
+    Vector3 GetStepPosition(Transform target)
     {
         Vector3 forward = agent.transform.forward;
-        return target.position + forward * forwardOffset;
+        return target.position + forward;
     }
-
-
 }
