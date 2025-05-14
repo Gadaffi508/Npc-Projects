@@ -1,5 +1,6 @@
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
 
@@ -82,6 +83,8 @@ public class PlayerController : MonoBehaviour
     #region PlayerMove
     private void PlayerMove()
     {
+        if (currentState == PlayerState.climbing) return;
+
         horizontalMove = Input.GetAxisRaw("Horizontal");
         verticalMove = Input.GetAxisRaw("Vertical");
 
@@ -197,32 +200,51 @@ public class PlayerController : MonoBehaviour
 
         playerModelAnimator.SetBool("Climbing", true);
 
-        Vector3 targetPos = climbSurface.position + climbSurface.up * 1.5f;
+        playerRb.linearVelocity = Vector3.zero;
+        playerRb.isKinematic = true;
+        GetComponent<CapsuleCollider>().enabled = false;
 
-        float elapsed = 0f;
-        float climbDuration = 1f;
-        Vector3 startPos = transform.position;
+        float animationDuration = 3.5f;
+        yield return new WaitForSeconds(animationDuration);
 
-        while (elapsed < climbDuration)
+        ClimbingScript climbingScript = climbSurface.GetComponent<ClimbingScript>();
+
+        if (climbingScript != null && climbingScript.climbTarget != null)
         {
-            transform.position = Vector3.Lerp(startPos, targetPos, elapsed / climbDuration);
-            elapsed += Time.deltaTime;
-            yield return null;
+            float moveDuration = 0.25f;
+            float elapsed = 0f;
+            Vector3 startPos = transform.position;
+            Vector3 targetPos = climbingScript.climbTarget.position;
+
+            while (elapsed < moveDuration)
+            {
+                transform.position = Vector3.Lerp(startPos, targetPos, elapsed / moveDuration);
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            transform.position = targetPos;
+        }
+        else
+        {
+            Debug.LogWarning("ClimbingScript veya climbTarget eksik!");
         }
 
-        transform.position = targetPos;
+        GetComponent<CapsuleCollider>().enabled = true;
+        playerRb.isKinematic = false;
 
-        isClimbing = false;
         playerModelAnimator.SetBool("Climbing", false);
+        isClimbing = false;
         currentState = PlayerState.Idle;
     }
+
 
     private bool CheckForClimbable(out Transform climbTarget)
     {
         climbTarget = null;
 
-        Vector3 origin = climbCheckTransform.position;        
-        Vector3 direction = climbCheckTransform.forward;        
+        Vector3 origin = climbCheckTransform.position;
+        Vector3 direction = climbCheckTransform.forward;
 
         Debug.DrawRay(origin, direction * climbCheckDistance, Color.green, 1f);
 
@@ -234,6 +256,7 @@ public class PlayerController : MonoBehaviour
 
         return false;
     }
+
 
 }
 public enum PlayerState

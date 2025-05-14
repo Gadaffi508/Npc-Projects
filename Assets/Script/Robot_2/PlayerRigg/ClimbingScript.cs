@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ClimbingScript : MonoBehaviour
 {
-    public Transform target;
+    public Transform climbTarget;
 
     public Transform playerPos;
     void Start()
