@@ -1,8 +1,14 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Animations.Rigging;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Player State")]
+    public TextMeshProUGUI stateText;
+    public PlayerState currentState;
+
     [Header("Movement Settings")]
     public float walkSpeed = 3f;
     public float runSpeed = 6f;
@@ -28,31 +34,64 @@ public class PlayerController : MonoBehaviour
     public float dodgeCooldown = 0.5f;
     private bool isDodging = false;
 
+    [Header("Climb Referances")]
+    public TwoBoneIKConstraint leftIK;
+    public TwoBoneIKConstraint rightIK;
+    public Transform ArmTarget;
+    public Transform climbCheckTransform;
+    bool isClimbing;
+
+    [Header("Climb Settings")]
+    public float climbCheckDistance = 1f;
+    public LayerMask climbableLayer;
+
+
     private void Start()
     {
         playerRb = GetComponent<Rigidbody>();
         playerModelAnimator = GetComponentInChildren<Animator>();
+
+        leftIK.weight = 0;
+        rightIK.weight = 0;
     }
 
-    void Update()
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !isDodging)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            TryDodge();
+            if (isDodging) return;
+
+            if (CheckForClimbable(out Transform climbPoint))
+            {
+                StartCoroutine(Climb(climbPoint));
+            }
+            else
+            {
+                TryDodge();
+            }
         }
+
+        stateText.text = currentState.ToString();
     }
+
 
     private void FixedUpdate()
     {
         PlayerMove();
     }
-
+    #region PlayerMove
     private void PlayerMove()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal");
         verticalMove = Input.GetAxisRaw("Vertical");
 
         Vector3 inputDirection = new Vector3(horizontalMove, 0f, verticalMove).normalized;
+
+        if (isDodging)
+        {
+            currentState = PlayerState.Dodging;
+            return;
+        }
 
         if (inputDirection.magnitude >= 0.1f)
         {
@@ -76,14 +115,18 @@ public class PlayerController : MonoBehaviour
 
             float animSpeed = Input.GetKey(KeyCode.LeftShift) ? 1f : 0.5f;
             playerModelAnimator.SetFloat("speed", Mathf.Lerp(playerModelAnimator.GetFloat("speed"), animSpeed, Time.fixedDeltaTime * 5f));
+
+            currentState = Input.GetKey(KeyCode.LeftShift) ? PlayerState.Running : PlayerState.Walking;
         }
         else
         {
             playerRb.linearVelocity = new Vector3(0, playerRb.linearVelocity.y, 0);
             playerModelAnimator.SetFloat("speed", Mathf.Lerp(playerModelAnimator.GetFloat("speed"), 0f, Time.fixedDeltaTime * 5f));
+            currentState = PlayerState.Idle;
         }
     }
-
+    #endregion
+    #region PlayerDodge
     private void TryDodge()
     {
         if (isDodging) return;
@@ -109,6 +152,7 @@ public class PlayerController : MonoBehaviour
     private IEnumerator MoveWithCurve(Vector3 direction)
     {
         isDodging = true;
+        currentState = PlayerState.Dodging;
 
         Vector3 startPosition = transform.position;
         Vector3 moveDirection = direction * moveDistance;
@@ -116,7 +160,7 @@ public class PlayerController : MonoBehaviour
 
         playerModelAnimator.SetTrigger("roll");
 
-        yield return new WaitForSeconds(0.2f); 
+        yield return new WaitForSeconds(0.05f);
 
         if (moveDirection != Vector3.zero)
         {
@@ -137,9 +181,66 @@ public class PlayerController : MonoBehaviour
 
         transform.position = startPosition + moveDirection;
 
-        yield return new WaitForSeconds(dodgeCooldown);
+        yield return new WaitForSeconds(.1f);
 
         isDodging = false;
+        currentState = PlayerState.Idle;
     }
 
+    #endregion
+
+
+    public IEnumerator Climb(Transform climbSurface)
+    {
+        currentState = PlayerState.climbing;
+        isClimbing = true;
+
+        playerModelAnimator.SetBool("Climbing", true);
+
+        Vector3 targetPos = climbSurface.position + climbSurface.up * 1.5f;
+
+        float elapsed = 0f;
+        float climbDuration = 1f;
+        Vector3 startPos = transform.position;
+
+        while (elapsed < climbDuration)
+        {
+            transform.position = Vector3.Lerp(startPos, targetPos, elapsed / climbDuration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = targetPos;
+
+        isClimbing = false;
+        playerModelAnimator.SetBool("Climbing", false);
+        currentState = PlayerState.Idle;
+    }
+
+    private bool CheckForClimbable(out Transform climbTarget)
+    {
+        climbTarget = null;
+
+        Vector3 origin = climbCheckTransform.position;        
+        Vector3 direction = climbCheckTransform.forward;        
+
+        Debug.DrawRay(origin, direction * climbCheckDistance, Color.green, 1f);
+
+        if (Physics.Raycast(origin, direction, out RaycastHit hit, climbCheckDistance, climbableLayer))
+        {
+            climbTarget = hit.transform;
+            return true;
+        }
+
+        return false;
+    }
+
+}
+public enum PlayerState
+{
+    Idle,
+    Walking,
+    Running,
+    Dodging,
+    climbing
 }
