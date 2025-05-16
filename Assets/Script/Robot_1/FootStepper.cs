@@ -36,12 +36,12 @@ public class FootStepper : MonoBehaviour
         if (footManager.TryGetComponent<FootManager>(out FootManager manager))
         {
             if (manager.leftFoot != this)
-                manager.leftFoot.stepOffset = -1f;
+                manager.leftFoot.stepOffset = -2f;
             if (manager.rightFoot != this)
-                manager.rightFoot.stepOffset = -1f;
+                manager.rightFoot.stepOffset = -2f;
         }
 
-        stepOffset = forwardOffset;
+        forwardOffset = stepOffset;
     }
 
 
