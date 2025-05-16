@@ -35,16 +35,7 @@ public class PlayerController : MonoBehaviour
     public float dodgeCooldown = 0.5f;
     private bool isDodging = false;
 
-    [Header("Climb Referances")]
-    public TwoBoneIKConstraint leftIK;
-    public TwoBoneIKConstraint rightIK;
-    public Transform ArmTarget;
-    public Transform climbCheckTransform;
-    bool isClimbing;
 
-    [Header("Climb Settings")]
-    public float climbCheckDistance = 1f;
-    public LayerMask climbableLayer;
 
 
     private void Start()
@@ -52,8 +43,6 @@ public class PlayerController : MonoBehaviour
         playerRb = GetComponent<Rigidbody>();
         playerModelAnimator = GetComponentInChildren<Animator>();
 
-        leftIK.weight = 0;
-        rightIK.weight = 0;
     }
 
     private void Update()
@@ -62,14 +51,7 @@ public class PlayerController : MonoBehaviour
         {
             if (isDodging) return;
 
-            if (CheckForClimbable(out Transform climbPoint))
-            {
-                StartCoroutine(Climb(climbPoint));
-            }
-            else
-            {
-                TryDodge();
-            }
+            TryDodge();
         }
 
         stateText.text = currentState.ToString();
@@ -191,71 +173,6 @@ public class PlayerController : MonoBehaviour
     }
 
     #endregion
-
-
-    public IEnumerator Climb(Transform climbSurface)
-    {
-        currentState = PlayerState.climbing;
-        isClimbing = true;
-
-        playerModelAnimator.SetBool("Climbing", true);
-
-        playerRb.linearVelocity = Vector3.zero;
-        playerRb.isKinematic = true;
-        GetComponent<CapsuleCollider>().enabled = false;
-
-        float animationDuration = 3.5f;
-        yield return new WaitForSeconds(animationDuration);
-
-        ClimbingScript climbingScript = climbSurface.GetComponent<ClimbingScript>();
-
-        if (climbingScript != null && climbingScript.climbTarget != null)
-        {
-            float moveDuration = 0.25f;
-            float elapsed = 0f;
-            Vector3 startPos = transform.position;
-            Vector3 targetPos = climbingScript.climbTarget.position;
-
-            while (elapsed < moveDuration)
-            {
-                transform.position = Vector3.Lerp(startPos, targetPos, elapsed / moveDuration);
-                elapsed += Time.deltaTime;
-                yield return null;
-            }
-
-            transform.position = targetPos;
-        }
-        else
-        {
-            Debug.LogWarning("ClimbingScript veya climbTarget eksik!");
-        }
-
-        GetComponent<CapsuleCollider>().enabled = true;
-        playerRb.isKinematic = false;
-
-        playerModelAnimator.SetBool("Climbing", false);
-        isClimbing = false;
-        currentState = PlayerState.Idle;
-    }
-
-
-    private bool CheckForClimbable(out Transform climbTarget)
-    {
-        climbTarget = null;
-
-        Vector3 origin = climbCheckTransform.position;
-        Vector3 direction = climbCheckTransform.forward;
-
-        Debug.DrawRay(origin, direction * climbCheckDistance, Color.green, 1f);
-
-        if (Physics.Raycast(origin, direction, out RaycastHit hit, climbCheckDistance, climbableLayer))
-        {
-            climbTarget = hit.transform;
-            return true;
-        }
-
-        return false;
-    }
 
 
 }
