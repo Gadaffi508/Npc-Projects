@@ -676,7 +676,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367884103}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8935e03361a14ec4b8edc872f76bc822, type: 3}
   m_Name: 
@@ -4026,13 +4026,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135819836}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5571326, y: -0.73224205, z: -0.08314908, w: -0.38276768}
-  m_LocalPosition: {x: -0.019, y: -0.0419, z: 0.0959}
+  m_LocalRotation: {x: 0.5209927, y: -0.8108617, z: -0.04092939, w: -0.26342896}
+  m_LocalPosition: {x: 0.020249384, y: 0.031348817, z: -0.014139965}
   m_LocalScale: {x: 0.049999997, y: 0.04999999, z: 0.05000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8447082967983946388}
-  m_LocalEulerAnglesHint: {x: -33.249, y: 145.979, z: -64.094}
+  m_LocalEulerAnglesHint: {x: -19.93, y: 155.854, z: -61.139}
 --- !u!65 &2135819838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6862,7 +6862,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 5aa027f856ef75e43afca16c7e6db505, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
