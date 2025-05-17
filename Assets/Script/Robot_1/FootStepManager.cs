@@ -7,6 +7,9 @@ public class FootStepManager : MonoBehaviour
     public bool isLeftFootStepping = false;
     public bool isRightFootStepping = false;
 
+    public enum ActiveFoot { None, Left, Right }
+    public ActiveFoot currentSteppingFoot = ActiveFoot.None;
+
     private void Awake()
     {
         Instance = this;
@@ -26,5 +29,17 @@ public class FootStepManager : MonoBehaviour
             isLeftFootStepping = stepping;
         else
             isRightFootStepping = stepping;
+
+        // Güncel adým atan ayaðý belirle
+        if (stepping)
+            currentSteppingFoot = isLeft ? ActiveFoot.Left : ActiveFoot.Right;
+        else if (!isLeftFootStepping && !isRightFootStepping)
+            currentSteppingFoot = ActiveFoot.None;
     }
+
+    public bool IsAnyFootStepping()
+    {
+        return isLeftFootStepping || isRightFootStepping;
+    }
+
 }
