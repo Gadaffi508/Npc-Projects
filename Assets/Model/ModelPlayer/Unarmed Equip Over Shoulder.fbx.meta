@@ -1,0 +1,2288 @@
+fileFormatVersion: 2
+guid: 11d3fdf4de898cf40ba22be0e90e4f10
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: mixamorig:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PlayerRobot(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pnts_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0022859764, y: 0.2919928, z: 0.011883894}
+      rotation: {x: 0.9999743, y: 0.007166622, z: 0.0000000018852988, w: 0.00000007548633}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: pnts.001_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.000029223464, y: 0.63379794, z: 0.040820904}
+      rotation: {x: 0.9999743, y: 0.007166622, z: 0.0000000018852988, w: 0.00000007548633}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: pnts.002_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.008956115, y: 0.6246617, z: 0.11012368}
+      rotation: {x: 0.13073134, y: -0.07523327, z: 2.1529908e-10, w: 0.9885592}
+      scale: {x: 99.99998, y: 99.99999, z: 99.99999}
+    - name: pnts.003_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.068463124, y: 0.6291687, z: 0.09406289}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: pnts.004_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.07205183, y: 0.6293059, z: 0.09669275}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: pnts.005_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0095500825, y: 0.6350737, z: 0.07404922}
+      rotation: {x: -0.20082067, y: 0.2835157, z: -0.6159309, w: 0.70704955}
+      scale: {x: 99.99998, y: 99.99999, z: 100}
+    - name: pnts.009_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.005415655, y: 0.63231075, z: 0.030522954}
+      rotation: {x: 0.9941161, y: 0.025739152, z: 0.030656975, w: -0.10065178}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: Sh001_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09850618, y: 0.028578805, z: 0.050316777}
+      rotation: {x: 0.00000011133863, y: -0.7856539, z: 0.000000091877, w: 0.6186663}
+      scale: {x: 99.99998, y: 100, z: 99.99998}
+    - name: Sh002_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.122622296, y: 0.040619157, z: 0.04685246}
+      rotation: {x: -0.5149799, y: -0.45889288, z: 0.20108378, w: 0.6955418}
+      scale: {x: 99.99998, y: 100.00001, z: 99.99999}
+    - name: Sh003_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.107271954, y: 0.050204728, z: 0.053241547}
+      rotation: {x: -0.014198512, y: -0.112386845, z: 0.009453808, w: 0.9935181}
+      scale: {x: 100, y: 100.000015, z: 99.99998}
+    - name: Sh001_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09850618, y: 0.028578805, z: 0.050316777}
+      rotation: {x: 0.00000011133863, y: -0.7856539, z: 0.000000091877, w: 0.6186663}
+      scale: {x: 99.99998, y: 100, z: 99.99998}
+    - name: Sh001_low.004
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.10424794, y: 0.028878206, z: 0.049737904}
+      rotation: {x: 0.00000012280573, y: -0.7542053, z: 0.0000000801188, w: 0.6566387}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Sh002_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.124879666, y: 0.03983325, z: 0.044310406}
+      rotation: {x: -0.5044428, y: -0.42405224, z: 0.22622249, w: 0.7173149}
+      scale: {x: 99.999985, y: 99.999985, z: 99.99999}
+    - name: Sh003_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.11180532, y: 0.05047017, z: 0.0524792}
+      rotation: {x: -0.013715278, y: -0.06328015, z: 0.01014214, w: 0.99785}
+      scale: {x: 99.99999, y: 100, z: 99.99998}
+    - name: Sh001_low.005
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.092536904, y: 0.04386592, z: 0.017894132}
+      rotation: {x: 0.00000012280573, y: -0.7542053, z: 0.0000000801188, w: 0.6566387}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Hnd001_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0038786232, y: 0.7097506, z: -0.0044261087}
+      rotation: {x: -0.70660913, y: 0.053649638, z: -0.21167414, w: 0.6730671}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: Hnd002_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.003878535, y: 0.75582916, z: -0.011914668}
+      rotation: {x: -0.7065443, y: 0.05369921, z: -0.21217613, w: 0.67297316}
+      scale: {x: 100.00001, y: 99.999985, z: 100.00001}
+    - name: Hnd003_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0038785522, y: 0.70310605, z: 0.0065480024}
+      rotation: {x: -0.7057631, y: 0.057133853, z: -0.21318097, w: 0.67319244}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hnd004_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0038786759, y: 0.69333136, z: -0.0055147735}
+      rotation: {x: -0.7057631, y: 0.057133853, z: -0.21318097, w: 0.67319244}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hnd005_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.003878534, y: 0.71328664, z: -0.028266007}
+      rotation: {x: -0.7057631, y: 0.057133853, z: -0.21318097, w: 0.67319244}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hnd006_low.008
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.2890138, y: 0.5182641, z: 0.07949884}
+      rotation: {x: -0.5681452, y: -0.39457268, z: 0.5817666, w: 0.42786807}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: Hnd007_low.008
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28741333, y: 0.4811669, z: 0.091483474}
+      rotation: {x: -0.79997367, y: -0.0009016784, z: 0.0010543225, w: 0.6000335}
+      scale: {x: 99.99998, y: 100, z: 100}
+    - name: Hnd008_low.008
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28798375, y: 0.50687015, z: 0.08328138}
+      rotation: {x: -0.5681452, y: -0.39457268, z: 0.5817666, w: 0.42786807}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: Hnd009_low.008
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28876078, y: 0.4950382, z: 0.087301165}
+      rotation: {x: -0.5681452, y: -0.39457268, z: 0.5817666, w: 0.42786807}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: Hnd010_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.2816117, y: 0.5478508, z: 0.051193193}
+      rotation: {x: -0.50331116, y: -0.28197977, z: 0.5566525, w: 0.5977485}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Hnd011_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28075677, y: 0.5563862, z: 0.07778391}
+      rotation: {x: -0.43560207, y: -0.05615767, z: 0.0063863313, w: 0.8983632}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hnd012_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.27374655, y: 0.5867666, z: 0.0357482}
+      rotation: {x: -0.21810006, y: 8.413565e-17, z: -8.413564e-17, w: 0.97592646}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hnd013_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.2814159, y: 0.5505589, z: 0.08736716}
+      rotation: {x: 0.5110519, y: 0.55986845, z: -0.4680298, w: -0.45422617}
+      scale: {x: 99.999985, y: 99.99999, z: 99.999985}
+    - name: Hnd014_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28072605, y: 0.53950274, z: 0.10397143}
+      rotation: {x: -0.3819512, y: -0.49270135, z: 0.35755983, w: 0.69534856}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: Hnd015_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.2817586, y: 0.5440806, z: 0.09656492}
+      rotation: {x: -0.4325024, y: -0.111995615, z: 0.053339597, w: 0.89305854}
+      scale: {x: 99.999985, y: 100.000015, z: 100.00001}
+    - name: Hnd016_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28121427, y: 0.5367717, z: 0.10761146}
+      rotation: {x: -0.4325024, y: -0.111995615, z: 0.053339597, w: 0.89305854}
+      scale: {x: 99.999985, y: 100.000015, z: 100.00001}
+    - name: Hnd017_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0038785418, y: 0.64749175, z: 0.01632634}
+      rotation: {x: -0.66334826, y: -0.307412, z: 0.43765202, w: 0.523381}
+      scale: {x: 99.999985, y: 100, z: 99.999985}
+    - name: Hnd018_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.003878551, y: 0.741223, z: -0.035489064}
+      rotation: {x: -0.66334826, y: -0.307412, z: 0.43765202, w: 0.523381}
+      scale: {x: 99.999985, y: 100, z: 99.999985}
+    - name: Hnd019_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.00387856, y: 0.8416046, z: -0.0054258434}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hnd006_low.009
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28899834, y: 0.51421654, z: 0.062598504}
+      rotation: {x: -0.55260473, y: -0.41496775, z: 0.56739897, w: 0.4477591}
+      scale: {x: 99.99999, y: 100, z: 100.00001}
+    - name: Hnd007_low.009
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28728473, y: 0.4736909, z: 0.072579995}
+      rotation: {x: -0.7781781, y: -0.00093852275, z: 0.0010216625, w: 0.62804216}
+      scale: {x: 99.99998, y: 100, z: 99.99999}
+    - name: Hnd008_low.009
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28789556, y: 0.5017619, z: 0.06577269}
+      rotation: {x: -0.55260473, y: -0.41496775, z: 0.56739897, w: 0.4477591}
+      scale: {x: 99.99999, y: 100, z: 100.00001}
+    - name: Hnd009_low.009
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28872743, y: 0.48882148, z: 0.06916697}
+      rotation: {x: -0.55260473, y: -0.41496775, z: 0.56739897, w: 0.4477591}
+      scale: {x: 99.99999, y: 100, z: 100.00001}
+    - name: Hnd006_low.010
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28664383, y: 0.51136786, z: 0.047336996}
+      rotation: {x: -0.5378122, y: -0.50250673, z: 0.5685586, w: 0.36740476}
+      scale: {x: 100, y: 100.00001, z: 99.99998}
+    - name: Hnd007_low.010
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.27988526, y: 0.4801086, z: 0.054987572}
+      rotation: {x: -0.7654043, y: -0.11913242, z: 0.01478073, w: 0.6322541}
+      scale: {x: 99.99999, y: 100, z: 100.00001}
+    - name: Hnd008_low.010
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.2841364, y: 0.5018479, z: 0.049829677}
+      rotation: {x: -0.5378122, y: -0.50250673, z: 0.5685586, w: 0.36740476}
+      scale: {x: 100, y: 100.00001, z: 99.99998}
+    - name: Hnd009_low.010
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28305334, y: 0.4916452, z: 0.05229487}
+      rotation: {x: -0.5378122, y: -0.50250673, z: 0.5685586, w: 0.36740476}
+      scale: {x: 100, y: 100.00001, z: 99.99998}
+    - name: Hnd006_low.011
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28261447, y: 0.5112215, z: 0.036655355}
+      rotation: {x: 0.56321603, y: 0.6045582, z: -0.456952, w: -0.32938135}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: Hnd007_low.011
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.27711332, y: 0.48484272, z: 0.039986722}
+      rotation: {x: -0.7017672, y: -0.21916015, z: -0.08139669, w: 0.67295337}
+      scale: {x: 99.99999, y: 100.00001, z: 99.99999}
+    - name: Hnd008_low.011
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28061566, y: 0.50317323, z: 0.037895177}
+      rotation: {x: 0.56321603, y: 0.6045582, z: -0.456952, w: -0.32938135}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: Hnd009_low.011
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.27970773, y: 0.49454692, z: 0.03871391}
+      rotation: {x: 0.56321603, y: 0.6045582, z: -0.456952, w: -0.32938135}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: Hnd007_low.012
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27965626, y: 0.4811669, z: 0.09148349}
+      rotation: {x: -0.79997367, y: -0.0009016784, z: 0.0010543225, w: 0.6000335}
+      scale: {x: 99.99998, y: 100, z: 100}
+    - name: Hnd006_low.012
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.2812567, y: 0.5182642, z: 0.07949896}
+      rotation: {x: -0.5681452, y: -0.39457268, z: 0.5817666, w: 0.42786807}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: Hnd008_low.012
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.28022665, y: 0.50687027, z: 0.083281495}
+      rotation: {x: -0.5681452, y: -0.39457268, z: 0.5817666, w: 0.42786807}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: Hnd009_low.012
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.28100368, y: 0.49503836, z: 0.08730129}
+      rotation: {x: -0.5681452, y: -0.39457268, z: 0.5817666, w: 0.42786807}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: Hnd010_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.2738546, y: 0.547851, z: 0.05119329}
+      rotation: {x: -0.50331116, y: -0.28197977, z: 0.5566525, w: 0.5977485}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Hnd011_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27299976, y: 0.55638623, z: 0.07778393}
+      rotation: {x: -0.43560207, y: -0.05615767, z: 0.0063863313, w: 0.8983632}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hnd012_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.2659895, y: 0.5867666, z: 0.0357482}
+      rotation: {x: -0.21810006, y: 8.413565e-17, z: -8.413564e-17, w: 0.97592646}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hnd013_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27365893, y: 0.550559, z: 0.087367006}
+      rotation: {x: 0.5110519, y: 0.55986845, z: -0.4680298, w: -0.45422617}
+      scale: {x: 99.999985, y: 99.99999, z: 99.999985}
+    - name: Hnd014_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27296904, y: 0.5395028, z: 0.10397156}
+      rotation: {x: -0.3819512, y: -0.49270135, z: 0.35755983, w: 0.69534856}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: Hnd015_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.2740015, y: 0.5440806, z: 0.09656492}
+      rotation: {x: -0.4325024, y: -0.111995615, z: 0.053339597, w: 0.89305854}
+      scale: {x: 99.999985, y: 100.000015, z: 100.00001}
+    - name: Hnd016_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.2734572, y: 0.5367718, z: 0.10761146}
+      rotation: {x: -0.4325024, y: -0.111995615, z: 0.053339597, w: 0.89305854}
+      scale: {x: 99.999985, y: 100.000015, z: 100.00001}
+    - name: Hnd006_low.013
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.28124124, y: 0.5142166, z: 0.06259849}
+      rotation: {x: -0.55260473, y: -0.41496775, z: 0.56739897, w: 0.4477591}
+      scale: {x: 99.99999, y: 100, z: 100.00001}
+    - name: Hnd007_low.013
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.2795276, y: 0.4736909, z: 0.07257999}
+      rotation: {x: -0.7781781, y: -0.00093852275, z: 0.0010216625, w: 0.62804216}
+      scale: {x: 99.99998, y: 100, z: 99.99999}
+    - name: Hnd008_low.013
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.28013855, y: 0.501762, z: 0.06577268}
+      rotation: {x: -0.55260473, y: -0.41496775, z: 0.56739897, w: 0.4477591}
+      scale: {x: 99.99999, y: 100, z: 100.00001}
+    - name: Hnd009_low.013
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.28097036, y: 0.48882148, z: 0.06916695}
+      rotation: {x: -0.55260473, y: -0.41496775, z: 0.56739897, w: 0.4477591}
+      scale: {x: 99.99999, y: 100, z: 100.00001}
+    - name: Hnd006_low.014
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27888662, y: 0.5113679, z: 0.047337055}
+      rotation: {x: -0.5378122, y: -0.50250673, z: 0.5685586, w: 0.36740476}
+      scale: {x: 100, y: 100.00001, z: 99.99998}
+    - name: Hnd007_low.014
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27212808, y: 0.4801086, z: 0.05498765}
+      rotation: {x: -0.7654043, y: -0.11913242, z: 0.01478073, w: 0.6322541}
+      scale: {x: 99.99999, y: 100, z: 100.00001}
+    - name: Hnd008_low.014
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27637923, y: 0.5018481, z: 0.04982974}
+      rotation: {x: -0.5378122, y: -0.50250673, z: 0.5685586, w: 0.36740476}
+      scale: {x: 100, y: 100.00001, z: 99.99998}
+    - name: Hnd009_low.014
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27529627, y: 0.49164534, z: 0.052294925}
+      rotation: {x: -0.5378122, y: -0.50250673, z: 0.5685586, w: 0.36740476}
+      scale: {x: 100, y: 100.00001, z: 99.99998}
+    - name: Hnd006_low.015
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27485743, y: 0.51122165, z: 0.036655284}
+      rotation: {x: 0.56321603, y: 0.6045582, z: -0.456952, w: -0.32938135}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: Hnd007_low.015
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.26935616, y: 0.48484272, z: 0.03998674}
+      rotation: {x: -0.7017672, y: -0.21916015, z: -0.08139669, w: 0.67295337}
+      scale: {x: 99.99999, y: 100.00001, z: 99.99999}
+    - name: Hnd008_low.015
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27285865, y: 0.50317335, z: 0.037895102}
+      rotation: {x: 0.56321603, y: 0.6045582, z: -0.456952, w: -0.32938135}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: Hnd009_low.015
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.2719507, y: 0.49454704, z: 0.038713835}
+      rotation: {x: 0.56321603, y: 0.6045582, z: -0.456952, w: -0.32938135}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: Body001_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0029039173, y: 0.68373334, z: -0.039882217}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body002_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0046495837, y: 0.70836836, z: -0.037577264}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body003_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.012266961, y: 0.6713309, z: -0.041335247}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body004_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0022631737, y: 0.76185507, z: -0.03782048}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body005_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.035997942, y: 0.68085694, z: -0.03877363}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body006_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.012712327, y: 0.66212714, z: 0.11164162}
+      rotation: {x: -0.58054924, y: 0.4036813, z: -0.40365806, w: 0.58057225}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body007_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.008749392, y: 0.7034093, z: 0.113446854}
+      rotation: {x: -0.706658, y: 0.02520623, z: -0.025206221, w: 0.70665675}
+      scale: {x: 99.99999, y: 100, z: 99.99999}
+    - name: Body008_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.03727814, y: 0.7016545, z: 0.10538381}
+      rotation: {x: -0.5870745, y: -0.39413637, z: 0.3941364, w: 0.5870746}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body009_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.067813486, y: 0.74863166, z: 0.0946747}
+      rotation: {x: -0.58268744, y: -0.5266859, z: 0.32545987, w: 0.52645344}
+      scale: {x: 100.00001, y: 99.99999, z: 100}
+    - name: Body010_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.019066602, y: 0.73106587, z: 0.095868565}
+      rotation: {x: 0.8248382, y: 0.26834533, z: -0.26854149, w: -0.4189489}
+      scale: {x: 100.000015, y: 100, z: 100}
+    - name: Body011_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.030642461, y: 0.81685674, z: 0.13010281}
+      rotation: {x: 0.9979421, y: 0.00000027347878, z: 0.064121716, w: -0.0000047130434}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Body012_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0310842, y: 0.81679624, z: 0.13138138}
+      rotation: {x: -0.000027471673, y: 0.99793905, z: -0.000018631617, w: 0.06416971}
+      scale: {x: 99.99999, y: 100, z: 99.99999}
+    - name: Body013_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.015477504, y: 0.8167842, z: 0.13295902}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body014_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.020508276, y: 0.8430264, z: 0.11724592}
+      rotation: {x: 0.5426899, y: -0.54268676, z: 0.45330733, w: -0.4533114}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body015_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.020508276, y: 0.8567219, z: 0.11724592}
+      rotation: {x: 0.5426899, y: -0.54268676, z: 0.45330733, w: -0.4533114}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body016_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.020508276, y: 0.87017006, z: 0.11724592}
+      rotation: {x: 0.5426899, y: -0.54268676, z: 0.45330733, w: -0.4533114}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body017_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.078882314, y: 0.77574193, z: 0.10274965}
+      rotation: {x: -0.28682077, y: -0.25707772, z: 0.25707772, w: 0.88631594}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Body018_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.073615246, y: 0.763599, z: 0.10279187}
+      rotation: {x: -0.28682077, y: -0.25707772, z: 0.25707772, w: 0.88631594}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Body019_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0675905, y: 0.750979, z: 0.103943296}
+      rotation: {x: -0.28682077, y: -0.25707772, z: 0.25707772, w: 0.88631594}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Body020_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0038786056, y: 0.89789593, z: -0.0017808285}
+      rotation: {x: -0.70036215, y: 0.09743116, z: -0.09743114, w: 0.7003622}
+      scale: {x: 99.99999, y: 100, z: 99.99999}
+    - name: Body021_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0012033808, y: 0.8511388, z: 0.048877418}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body022_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.035080045, y: 0.6675326, z: 0.12036705}
+      rotation: {x: -0.001160838, y: 1.3750239e-24, z: -2.5776563e-19, w: 0.99999934}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body023_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.026055627, y: 0.9852735, z: 0.057623595}
+      rotation: {x: -0.1849483, y: -0.103995815, z: 0.10595008, w: 0.9714698}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: Body024_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.07290508, y: 0.9071226, z: 0.08385945}
+      rotation: {x: -0.38292766, y: -0.31451032, z: -0.27911332, w: 0.8225239}
+      scale: {x: 99.99999, y: 100.00001, z: 100}
+    - name: Body025_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.05285623, y: 0.8980515, z: 0.10389587}
+      rotation: {x: 0.80368763, y: -0.28228936, z: 0.2822909, w: -0.4412604}
+      scale: {x: 100.00001, y: 99.99999, z: 99.99999}
+    - name: Body026_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0038785492, y: 0.92374593, z: 0.060859308}
+      rotation: {x: 0.85697097, y: -0.11651623, z: 0.116516195, w: -0.48831207}
+      scale: {x: 100, y: 99.99999, z: 100}
+    - name: Body027_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.003878553, y: 0.9243141, z: 0.070400104}
+      rotation: {x: -0.82778, y: 0.053370323, z: -0.05336, w: 0.5559538}
+      scale: {x: 100, y: 99.999985, z: 100.00001}
+    - name: Body028_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0038785406, y: 1.0078106, z: 0.0353759}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body029_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0038785534, y: 1.0019679, z: 0.02739019}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body030_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.058327306, y: 0.7349571, z: 0.10249908}
+      rotation: {x: 0.78675914, y: -0.08709979, z: -0.5796447, w: -0.19348349}
+      scale: {x: 99.99999, y: 100, z: 100.000015}
+    - name: Body031_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.03067682, y: 0.8745764, z: 0.12755093}
+      rotation: {x: 0.9979421, y: 0.00000027347878, z: 0.064121716, w: -0.0000047130434}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Body032_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.031118562, y: 0.8745733, z: 0.12882948}
+      rotation: {x: -0.000027471673, y: 0.99793905, z: -0.000018631617, w: 0.06416971}
+      scale: {x: 99.99999, y: 100, z: 99.99999}
+    - name: Body033_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.015511858, y: 0.8745268, z: 0.13040715}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body0233_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.033002377, y: 0.98526573, z: 0.05761428}
+      rotation: {x: -0.1849483, y: -0.103995815, z: 0.10595008, w: 0.9714698}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: Body0255_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.04509912, y: 0.8980515, z: 0.10389588}
+      rotation: {x: 0.80368763, y: -0.28228936, z: 0.2822909, w: -0.4412604}
+      scale: {x: 100.00001, y: 99.99999, z: 99.99999}
+    - name: Body0244_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.06514802, y: 0.9071226, z: 0.08385946}
+      rotation: {x: -0.38292766, y: -0.31451032, z: -0.27911332, w: 0.8225239}
+      scale: {x: 99.99999, y: 100.00001, z: 100}
+    - name: Body008_low.004
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.04755441, y: 0.6754837, z: 0.10602676}
+      rotation: {x: -0.5909912, y: -0.3894468, z: 0.38856268, w: 0.58998275}
+      scale: {x: 99.99999, y: 100.00001, z: 100}
+    - name: Body008_low.005
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.06704821, y: 0.7229775, z: 0.10347585}
+      rotation: {x: -0.62537044, y: -0.21066189, z: 0.7084762, w: -0.2501897}
+      scale: {x: 99.99999, y: 100, z: 100}
+    - name: Body010_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.05385825, y: 0.74203885, z: 0.09373724}
+      rotation: {x: 0.770799, y: 0.50043005, z: 0.35324842, w: -0.17508352}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: Head001_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.058516238, y: 1.0528364, z: 0.02539956}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head002_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.005748553, y: 1.0514308, z: 0.024687447}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head003_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0012079282, y: 1.0641304, z: 0.04500966}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head004_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0045008273, y: 1.0536993, z: 0.02294006}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head005_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.004500815, y: 1.0505902, z: 0.02440498}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head006_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.06478929, y: 1.0595536, z: 0.044221185}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head007_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.06491734, y: 1.0623326, z: 0.040577807}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head008_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.00574854, y: 1.0519822, z: 0.023234256}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head009_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.046811428, y: 1.0506753, z: 0.023808585}
+      rotation: {x: -0.70603853, y: 7.2437064e-19, z: -7.213953e-19, w: 0.7081734}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: Head011_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.052890442, y: 1.0710804, z: 0.030592095}
+      rotation: {x: -0.70603853, y: 7.2437064e-19, z: -7.213953e-19, w: 0.7081734}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: Head012_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.03600233, y: 1.0881412, z: 0.11466245}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Head013_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.03813415, y: 1.0878043, z: 0.114635035}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Head014_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.03942528, y: 1.0887121, z: 0.114586666}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Head022_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.04912211, y: 1.0534749, z: 0.025406279}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head023_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.06012544, y: 1.070235, z: 0.031266637}
+      rotation: {x: -0.7004608, y: -0.09671813, z: -0.096718125, w: 0.7004612}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: Head026_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.037249133, y: 1.0877814, z: 0.108919635}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Head027_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.03488083, y: 1.0983535, z: 0.106338635}
+      rotation: {x: 0.7049228, y: -0.035732232, z: 0.035732247, w: 0.7074817}
+      scale: {x: 99.999985, y: 99.99999, z: 100}
+    - name: Head028_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0038785513, y: 1.0824283, z: -0.027212912}
+      rotation: {x: -0.79893863, y: 0.002309102, z: -0.0017044414, w: 0.60140574}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head029_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0044395933, y: 1.0770565, z: 0.045380626}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Head030_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.007655828, y: 1.0837791, z: 0.111085735}
+      rotation: {x: -0.000000040096374, y: -0.3211594, z: 6.953677e-10, w: 0.9470252}
+      scale: {x: 99.99999, y: 100, z: 99.99999}
+    - name: Head031_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.06606867, y: 1.0650791, z: 0.02325398}
+      rotation: {x: -0.5, y: 0.49999997, z: 0.5, w: 0.5}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Head032_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.033689618, y: 1.0390712, z: 0.095835894}
+      rotation: {x: 0.06658803, y: -0.38969716, z: -0.018054485, w: 0.91835517}
+      scale: {x: 99.99999, y: 99.999985, z: 99.99999}
+    - name: Head033_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.024482198, y: 1.0387324, z: 0.09604564}
+      rotation: {x: -0.24492219, y: 0.40363625, z: -0.61070216, w: 0.6357152}
+      scale: {x: 99.999985, y: 99.99999, z: 99.999985}
+    - name: Head034_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.006345586, y: 1.0415645, z: 0.10999432}
+      rotation: {x: 0.0000003206961, y: 0.07784571, z: -0.0000000020042388, w: 0.99696547}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Head035_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.012763216, y: 1.044381, z: 0.110905215}
+      rotation: {x: 0.052441835, y: -0.11738843, z: 0.0012461343, w: 0.9916997}
+      scale: {x: 99.99999, y: 99.99999, z: 99.99999}
+    - name: Head036_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0050150463, y: 1.0289116, z: 0.10912153}
+      rotation: {x: 0.057046607, y: 0.13644058, z: -0.0000054384536, w: 0.98900443}
+      scale: {x: 99.99999, y: 100, z: 99.99998}
+    - name: Head037_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.012740328, y: 1.0289572, z: 0.109166756}
+      rotation: {x: 0.0014317562, y: -0.13493441, z: -0.026348162, w: 0.99050313}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: Head038_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.004500832, y: 1.0424771, z: 0.013383756}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Head039_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.04428643, y: 1.0468036, z: 0.010386255}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Head015_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.045715287, y: 1.0938361, z: 0.09144212}
+      rotation: {x: -0.66765445, y: -0.022405736, z: 0.024958266, w: 0.7437154}
+      scale: {x: 100, y: 99.999985, z: 99.99999}
+    - name: Roundcube.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0045008194, y: 1.0464981, z: 0.06863284}
+      rotation: {x: -0.00000009308708, y: 0.673461, z: 0.73922276, w: 0.00000018693746}
+      scale: {x: 100, y: 99.999985, z: 99.999985}
+    - name: Body034_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08919849, y: 0.710624, z: 0.061886214}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body035_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08659647, y: 0.7572025, z: 0.06868104}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body036_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09061071, y: 0.75090474, z: 0.0710864}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body037_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.09148974, y: 0.7372794, z: 0.049197137}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body038_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.09265108, y: 0.75536305, z: 0.059453487}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body039_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.071405135, y: 0.7191961, z: 0.030128755}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body040_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.08859251, y: 0.7487952, z: 0.06339969}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body041_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.08475836, y: 0.7405012, z: 0.06515968}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body042_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08788429, y: 0.6864515, z: 0.036368}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body043_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.07213105, y: 0.6933381, z: 0.03980305}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body044_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.073615156, y: 0.686862, z: 0.042583827}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body045_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08539378, y: 0.73127335, z: 0.066793665}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body046_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.08450951, y: 0.70010084, z: 0.027737517}
+      rotation: {x: -0.5, y: -0.49999997, z: -0.5, w: 0.5}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body047_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0619277, y: 0.73452544, z: 0.08600376}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Body042_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08900612, y: 0.67633444, z: 0.002874163}
+      rotation: {x: 0.04954085, y: -0.0034236598, z: 0.026348393, w: 0.9984186}
+      scale: {x: 100.00001, y: 99.99999, z: 100}
+    - name: glass.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.037557345, y: 1.0879394, z: 0.11551146}
+      rotation: {x: -0.7228461, y: 0, z: -0, w: 0.69100916}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: Circle.007
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.018693507, y: 1.0864569, z: 0.11958818}
+      rotation: {x: -0.02268782, y: 0.17402063, z: 0.0019607493, w: 0.98447865}
+      scale: {x: 99.99999, y: 99.99998, z: 100.00001}
+    - name: Circle.008
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.027455756, y: 1.078583, z: 0.11544086}
+      rotation: {x: 0.03151971, y: 0.26939934, z: -0.010919213, w: 0.9624507}
+      scale: {x: 99.99999, y: 99.99998, z: 100}
+    - name: Circle.009
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0402426, y: 1.0806092, z: 0.10440119}
+      rotation: {x: 0.015927339, y: 0.454023, z: -0.010383191, w: 0.89078707}
+      scale: {x: 99.99999, y: 99.99998, z: 99.99999}
+    - name: Circle.010
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.03340802, y: 1.0883902, z: 0.111489445}
+      rotation: {x: 0.0033636661, y: 0.34119081, z: -0.0033676003, w: 0.939982}
+      scale: {x: 100.00001, y: 99.99999, z: 100}
+    - name: Circle.011
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.038654175, y: 1.0985101, z: 0.105559416}
+      rotation: {x: -0.023788905, y: 0.44134906, z: 0.009455604, w: 0.89697033}
+      scale: {x: 99.99999, y: 99.99999, z: 99.99999}
+    - name: Circle.012
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.025418216, y: 1.0966266, z: 0.11639889}
+      rotation: {x: -0.025345404, y: 0.23278941, z: 0.0037696813, w: 0.97218955}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hat_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0044013066, y: 1.1551316, z: 0.03912855}
+      rotation: {x: -0.6500389, y: 0.18833168, z: -0.0015626941, w: 0.7361917}
+      scale: {x: 99.99999, y: 100.00001, z: 99.99999}
+    - name: clo.001_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.004965406, y: 0.7743517, z: 0.019536883}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.002_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0004592553, y: 0.56166625, z: -0.008767996}
+      rotation: {x: 0.98813987, y: 0.015096078, z: 0.045724455, w: 0.14581147}
+      scale: {x: 99.99999, y: 100, z: 99.99999}
+    - name: clo.016_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.14621364, y: 0.35331622, z: 0.02403785}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.003_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28322333, y: 0.6265486, z: 0.023944328}
+      rotation: {x: -0.5743285, y: -0.27186382, z: 0.40435287, w: 0.65782654}
+      scale: {x: 99.999985, y: 99.99999, z: 99.99999}
+    - name: clo.004_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.25695983, y: 0.6206087, z: 0.035474397}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.005_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.28646117, y: 0.6372545, z: 0.06256556}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.006_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.26204315, y: 0.6379557, z: 0.07342757}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.007_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.23323143, y: 0.6253556, z: 0.059139412}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.008_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.2429891, y: 0.6024943, z: 0.010796634}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.009_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.24013546, y: 0.62348914, z: 0.040844105}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.010_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.26681682, y: 0.64145994, z: 0.067984045}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.011_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.12480553, y: 0.66953534, z: 0.0028945701}
+      rotation: {x: 0.8838189, y: -0.04360426, z: -0.4655821, w: -0.0140021}
+      scale: {x: 99.99999, y: 100, z: 100}
+    - name: clo.012_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.12010773, y: 0.6566445, z: 0.00550072}
+      rotation: {x: 0.97591484, y: 0.0645482, z: 0.19366351, w: -0.07692996}
+      scale: {x: 99.99999, y: 99.999985, z: 99.99999}
+    - name: clo.013_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.109834686, y: 0.97149694, z: -0.010203253}
+      rotation: {x: -0.5876332, y: -0.122268505, z: 0.12226855, w: 0.7904354}
+      scale: {x: 100.00001, y: 99.999985, z: 99.99998}
+    - name: clo.014_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.11050054, y: 0.9761611, z: -0.011469582}
+      rotation: {x: -0.65545315, y: -0.20043783, z: 0.018660089, w: 0.7279132}
+      scale: {x: 100, y: 99.99999, z: 99.999985}
+    - name: clo.015_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.11407683, y: 0.96688306, z: -0.004731452}
+      rotation: {x: -0.5960129, y: 0.13582222, z: -0.1358222, w: 0.7796624}
+      scale: {x: 100.00001, y: 99.99998, z: 99.99999}
+    - name: clo_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.11135784, y: 0.9726201, z: -0.006560714}
+      rotation: {x: -0.6822561, y: 0.294813, z: -0.072823204, w: 0.66506296}
+      scale: {x: 100, y: 99.99999, z: 100}
+    - name: clo.017_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.103981644, y: 0.86616224, z: -0.06710871}
+      rotation: {x: 0.01786014, y: -0.2811541, z: -0.12205951, w: 0.95170105}
+      scale: {x: 100.00001, y: 100, z: 99.99999}
+    - name: clo.018_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.078538835, y: 0.7992696, z: -0.0692844}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.019_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0376989, y: 0.7891494, z: -0.071604826}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.020_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.027765473, y: 0.68727005, z: -0.067094184}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.021_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.23909251, y: 0.6030057, z: -0.00057329086}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.022_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.27543366, y: 0.6309033, z: 0.022785462}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.023_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.20870435, y: 0.62042576, z: 0.055950087}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.024_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.086123236, y: 0.871415, z: -0.069949344}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.025_low.005
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.019399773, y: 0.64373916, z: -0.07002665}
+      rotation: {x: 0.27711272, y: -0.1317223, z: 0.14208019, w: 0.94110096}
+      scale: {x: 100, y: 100, z: 100}
+    - name: clo.026_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.023003895, y: 0.6538817, z: -0.06790698}
+      rotation: {x: -0.70812577, y: -0.037148155, z: 0.013528667, w: 0.70497864}
+      scale: {x: 100.00001, y: 99.99999, z: 100}
+    - name: clo.025_low.006
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.012108617, y: 0.6430648, z: -0.072034255}
+      rotation: {x: 0.08994048, y: -0.45601013, z: 0.8803511, w: -0.094590634}
+      scale: {x: 100.00001, y: 99.99999, z: 100}
+    - name: clo.025_low.007
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.031041669, y: 0.64628845, z: -0.069154955}
+      rotation: {x: 0.058477093, y: 0.19344535, z: -0.14291047, w: 0.9688839}
+      scale: {x: 99.99999, y: 100, z: 100.00001}
+    - name: clo.025_low.008
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.029439887, y: 0.6416022, z: -0.07219911}
+      rotation: {x: -0.166461, y: -0.40825143, z: 0.8974609, w: 0.013620891}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: clo.024_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.044830836, y: 0.8725148, z: -0.07401034}
+      rotation: {x: 0.033803158, y: 0.0108009735, z: 0.0021540846, w: 0.99936783}
+      scale: {x: 100, y: 99.99998, z: 99.99999}
+    - name: clo.017_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.066547625, y: 0.8740035, z: -0.075510286}
+      rotation: {x: -0.009008596, y: -0.11180009, z: -0.071719445, w: 0.99109834}
+      scale: {x: 99.99999, y: 100, z: 99.99999}
+    - name: clo.006_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.24017553, y: 0.6347426, z: 0.07964635}
+      rotation: {x: 0.051032517, y: 0.22607732, z: 0.9477085, w: -0.21939325}
+      scale: {x: 100, y: 100, z: 99.999985}
+    - name: Cam2001_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08831867, y: 0.91279846, z: 0.10967754}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2002_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09076761, y: 0.915174, z: 0.108189546}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2003_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09487389, y: 0.91212124, z: 0.10965918}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2004_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08429604, y: 0.90994924, z: 0.11429753}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2005_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09495592, y: 0.9124391, z: 0.110096045}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2006_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09502358, y: 0.912698, z: 0.11045238}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2007_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09497718, y: 0.9125902, z: 0.11030082}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2008_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.094986446, y: 0.9125846, z: 0.11030919}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2009_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09086449, y: 0.91554904, z: 0.10870545}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2010_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.085777365, y: 0.90290296, z: 0.120287694}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2011_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.07191071, y: 0.90475327, z: 0.117584534}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2012_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0848905, y: 0.9178961, z: 0.10733823}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2013_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.081744134, y: 0.91763836, z: 0.10841919}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2014_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08602923, y: 0.918117, z: 0.10703575}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2015_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.07605672, y: 0.90210843, z: 0.117258534}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2016_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08371726, y: 0.903573, z: 0.11504563}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2017_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08538185, y: 0.89634293, z: 0.12195217}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2018_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0841803, y: 0.903855, z: 0.11047055}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2019_low.006
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0907833, y: 0.9159546, z: 0.102197014}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2020_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09459429, y: 0.9086455, z: 0.11218985}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2021_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.06807314, y: 0.90625036, z: 0.11677142}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Cam2022_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08447438, y: 0.91060966, z: 0.11522506}
+      rotation: {x: -0.21845931, y: 0.9230801, z: -0.31647652, w: 0.0064269123}
+      scale: {x: 99.99999, y: 100, z: 99.99999}
+    - name: Cam2023_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.053526524, y: 0.918305, z: 0.10289249}
+      rotation: {x: -0.53604114, y: 0.11329853, z: 0.07149394, w: 0.8334938}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: Cam2019_low.007
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09009886, y: 0.9147953, z: 0.10316856}
+      rotation: {x: -0.30272582, y: 0.7638194, z: 0.34296948, w: -0.45531192}
+      scale: {x: 99.99999, y: 100, z: 100}
+    - name: Cam2019_low.008
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.086577706, y: 0.90794, z: 0.10881477}
+      rotation: {x: 0.41907924, y: -0.5007506, z: -0.18342192, w: 0.7348318}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: Cam2019_low.009
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.09211438, y: 0.89574826, z: 0.116640754}
+      rotation: {x: 0.41907924, y: -0.5007506, z: -0.18342192, w: 0.7348318}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: Cam2019_low.010
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.078657344, y: 0.89407253, z: 0.1203861}
+      rotation: {x: 0.4573636, y: -0.1821448, z: -0.009463467, w: 0.8703748}
+      scale: {x: 100.00001, y: 100, z: 99.999985}
+    - name: Cam2019_low.011
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.07883105, y: 0.8929755, z: 0.12115122}
+      rotation: {x: 0.4289338, y: 0.14992951, z: 0.15901841, w: 0.8764988}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cam2020_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.08243122, y: 0.9189964, z: 0.106946684}
+      rotation: {x: -0.15901841, y: 0.8764988, z: 0.42893368, w: -0.14992951}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Body454
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.095032975, y: 0.9127513, z: 0.11052753}
+      rotation: {x: -0.20876843, y: 0.8525303, z: 0.4070462, w: -0.25282654}
+      scale: {x: 100, y: 99.99999, z: 100.00001}
+    - name: Cam1001_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.011577472, y: 0.5706377, z: -0.102706246}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1002_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.011364762, y: 0.5705095, z: -0.097457}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1004_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.03248436, y: 0.5704474, z: -0.09474956}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1005_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.024618844, y: 0.58364546, z: -0.09428719}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1006_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.028616287, y: 0.58412397, z: -0.09470422}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1007_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.011106216, y: 0.5890507, z: -0.089772165}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1008_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.011078499, y: 0.58900857, z: -0.08899501}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1009_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0030607523, y: 0.5511089, z: -0.095374025}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1010_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.029025499, y: 0.6192423, z: -0.07929779}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1011_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.013202009, y: 0.57981336, z: -0.093236074}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1012_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.010827478, y: 0.57862204, z: -0.09032963}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1013_low.002
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.03887215, y: 0.6124974, z: -0.08585264}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1014_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.010813079, y: 0.59723914, z: -0.08135339}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1015_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.010834787, y: 0.59367275, z: -0.08250616}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1016_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.016948693, y: 0.59442043, z: -0.08377066}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1018_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.05371911, y: 0.560159, z: -0.074975744}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1019_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.050649006, y: 0.55352074, z: -0.086115204}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1020_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.050081808, y: 0.5965575, z: -0.077543445}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1021_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.052136377, y: 0.586347, z: -0.079012856}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1022_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.016623072, y: 0.62402415, z: -0.09596662}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1023_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.03474989, y: 0.55856687, z: -0.08086482}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1024_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0376994, y: 0.6108439, z: -0.08102967}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1025_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.03407951, y: 0.58848643, z: -0.09355717}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1026_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.031876937, y: 0.6223017, z: -0.0941543}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1027_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.009629948, y: 0.59377, z: -0.08736748}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1028_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.028130045, y: 0.55529964, z: -0.08069861}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1029_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.030203711, y: 0.5591269, z: -0.080897786}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1030_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.030294098, y: 0.6409921, z: -0.07723386}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1031_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.00857555, y: 0.63554955, z: -0.09111096}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1032_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.000042373314, y: 0.6309901, z: -0.0933493}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1034_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.000047318637, y: 0.63098705, z: -0.09321974}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1036_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0013239625, y: 0.63105476, z: -0.092695594}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1037_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.008299435, y: 0.5937144, z: -0.0919464}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1038_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.011358343, y: 0.5705053, z: -0.0972741}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1039_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.011456363, y: 0.57056886, z: -0.10002474}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1040_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.008291325, y: 0.6052279, z: -0.08774554}
+      rotation: {x: 0.011539414, y: -0.017803183, z: -0.00020049461, w: 0.99977493}
+      scale: {x: 99.999985, y: 100.00001, z: 100}
+    - name: Cam1041_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.016948594, y: 0.59442025, z: -0.08376796}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1042_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.054261643, y: 0.5601366, z: -0.074956246}
+      rotation: {x: 0.011539414, y: -0.017803183, z: -0.00020049461, w: 0.99977493}
+      scale: {x: 99.999985, y: 100.00001, z: 100}
+    - name: Cam1043_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.016619366, y: 0.6240301, z: -0.096243896}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1045_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0080547165, y: 0.64069265, z: -0.07860733}
+      rotation: {x: -0.69439226, y: -0.10639141, z: 0.07928626, w: 0.70725805}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cam1046_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.008239226, y: 0.5939734, z: -0.09363299}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1004_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.009916384, y: 0.57048184, z: -0.09625971}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1013_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.034412015, y: 0.61019015, z: -0.086064845}
+      rotation: {x: -0.85480917, y: -0.008885957, z: -0.01542833, w: 0.51863694}
+      scale: {x: 99.999985, y: 100, z: 100}
+    - name: Cam1003_low
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.0116442805, y: 0.5701627, z: -0.102475375}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1017_low
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.016961861, y: 0.5944282, z: -0.08397979}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1035_low
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.00002647005, y: 0.63096046, z: -0.09341461}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam1044_low
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.016580243, y: 0.62405914, z: -0.096221216}
+      rotation: {x: -0.6987882, y: -0.012446977, z: -0.012730525, w: 0.7151071}
+      scale: {x: 99.999985, y: 100, z: 100.00001}
+    - name: Cam10122_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.012762318, y: 0.5807237, z: -0.094751574}
+      rotation: {x: 0.011539294, y: -0.017803185, z: -0.00020049921, w: 0.99977493}
+      scale: {x: 99.999985, y: 100.00001, z: 100}
+    - name: Cam10066_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.021689482, y: 0.58251715, z: -0.09491023}
+      rotation: {x: 0.011539294, y: -0.017803185, z: -0.00020049921, w: 0.99977493}
+      scale: {x: 99.999985, y: 100.00001, z: 100}
+    - name: Rec001_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.033512354, y: 0.7598287, z: -0.07732586}
+      rotation: {x: -0.7043981, y: -0.024502505, z: 0.061834905, w: 0.70668197}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Rec002_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.03309487, y: 0.7545167, z: -0.08226617}
+      rotation: {x: -0.7043981, y: -0.024502505, z: 0.061834905, w: 0.70668197}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Rec003_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.033359673, y: 0.7341143, z: -0.06546662}
+      rotation: {x: -0.7043981, y: -0.024502505, z: 0.061834905, w: 0.70668197}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Rec004_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.030801639, y: 0.720549, z: -0.076044455}
+      rotation: {x: -0.7043981, y: -0.024502505, z: 0.061834905, w: 0.70668197}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Rec006_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.039086677, y: 0.73082143, z: -0.07600163}
+      rotation: {x: -0.7043981, y: -0.024502505, z: 0.061834905, w: 0.70668197}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Rec007_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.042101987, y: 0.7303378, z: -0.07572863}
+      rotation: {x: -0.7043981, y: -0.024502505, z: 0.061834905, w: 0.70668197}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Rec008_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.01584993, y: 0.7375732, z: -0.077226564}
+      rotation: {x: -0.7043981, y: -0.024502505, z: 0.061834905, w: 0.70668197}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Rec009_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.015213661, y: 0.73966694, z: -0.077255934}
+      rotation: {x: -0.7043981, y: -0.024502505, z: 0.061834905, w: 0.70668197}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Rec010_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.015572932, y: 0.74578106, z: -0.07723692}
+      rotation: {x: -0.7043981, y: -0.024502505, z: 0.061834905, w: 0.70668197}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Rec011_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.042300496, y: 0.65699613, z: -0.07536657}
+      rotation: {x: -0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Rec012_low.001
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.041784924, y: 0.65791607, z: -0.076160505}
+      rotation: {x: -0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Head008_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0045008226, y: 1.0514753, z: 0.023585442}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Head002_low.003
+      parentName: PlayerRobot(Clone)
+      position: {x: -0.0045008357, y: 1.0505226, z: 0.024687447}
+      rotation: {x: -0.7008991, y: -1.3724281e-18, z: 1.372427e-18, w: 0.7132604}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: mixamorig:Hips
+      parentName: PlayerRobot(Clone)
+      position: {x: 0.000015916625, y: 0.5710812, z: -0.016027292}
+      rotation: {x: 0.00000053141804, y: 0.0000059061704, z: -0.00018428662, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightUpLeg
+      parentName: mixamorig:Hips
+      position: {x: 0.06623392, y: -0.042522088, z: 0.015057438}
+      rotation: {x: -0.002134106, y: 0.006776755, z: 0.99995977, w: 0.0054734712}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightLeg
+      parentName: mixamorig:RightUpLeg
+      position: {x: -3.910152e-12, y: 0.25238827, z: 6.159955e-10}
+      rotation: {x: -0.04863722, y: -0.000009155424, z: 0.012051795, w: 0.99874383}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightFoot
+      parentName: mixamorig:RightLeg
+      position: {x: -6.1633426e-10, y: 0.2170419, z: -4.357496e-10}
+      rotation: {x: 0.5307708, y: -0.053169023, z: 0.06051564, w: 0.8436785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightToeBase
+      parentName: mixamorig:RightFoot
+      position: {x: -1.3090039e-10, y: 0.107234634, z: -0.0000000020201256}
+      rotation: {x: 0.2667847, y: -0.07136596, z: 0.019813927, w: 0.96090597}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightToe_End
+      parentName: mixamorig:RightToeBase
+      position: {x: -1.8375339e-10, y: 0.044277027, z: 1.6829026e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftUpLeg
+      parentName: mixamorig:Hips
+      position: {x: -0.06623392, y: -0.042522088, z: 0.014675449}
+      rotation: {x: 0.00214585, y: 0.007144299, z: 0.9999551, w: -0.005839473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftLeg
+      parentName: mixamorig:LeftUpLeg
+      position: {x: -1.9514235e-10, y: 0.25241068, z: 9.957196e-10}
+      rotation: {x: -0.04854843, y: -0.000012333404, z: -0.012048457, w: 0.9987482}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftFoot
+      parentName: mixamorig:LeftLeg
+      position: {x: 1.3685217e-10, y: 0.2170544, z: 7.5399686e-11}
+      rotation: {x: 0.5363124, y: 0.050605558, z: -0.05992732, w: 0.84036714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftToeBase
+      parentName: mixamorig:LeftFoot
+      position: {x: -7.2971534e-10, y: 0.109840445, z: 3.7733805e-10}
+      rotation: {x: 0.2599305, y: 0.07043216, z: -0.019013477, w: 0.96286756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftToe_End
+      parentName: mixamorig:LeftToeBase
+      position: {x: 4.6251747e-10, y: 0.04584402, z: 2.1225157e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine
+      parentName: mixamorig:Hips
+      position: {x: -0, y: 0.07664684, z: -0.003361832}
+      rotation: {x: -0.021915387, y: -0.0000099435, z: 0.00018411296, w: 0.99975985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine1
+      parentName: mixamorig:Spine
+      position: {x: -0, y: 0.08950728, z: -1.2535967e-10}
+      rotation: {x: 4.9258654e-26, y: -7.2482087e-14, z: 6.795976e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine2
+      parentName: mixamorig:Spine1
+      position: {x: -0, y: 0.10229415, z: 1.3453219e-10}
+      rotation: {x: 0, y: 0, z: 5.7586846e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftShoulder
+      parentName: mixamorig:Spine2
+      position: {x: -0.04180204, y: 0.09240213, z: -0.00090876175}
+      rotation: {x: 0.5556371, y: -0.43364432, z: 0.5631634, w: 0.43135485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftArm
+      parentName: mixamorig:LeftShoulder
+      position: {x: 3.276137e-11, y: 0.08722852, z: -5.1205945e-10}
+      rotation: {x: -0.12699093, y: -0.034439355, z: -0.0008344433, w: 0.9913055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftForeArm
+      parentName: mixamorig:LeftArm
+      position: {x: 4.963814e-11, y: 0.14183073, z: 3.2628278e-10}
+      rotation: {x: -0.00000014024617, y: -0.0072187814, z: 0.00000027061282, w: 0.99997395}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHand
+      parentName: mixamorig:LeftForeArm
+      position: {x: 0.0000000018613125, y: 0.21735875, z: -0.0000000041967643}
+      rotation: {x: 0.03255484, y: -0.0035783132, z: 0.052244768, w: 0.9980971}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandRing1
+      parentName: mixamorig:LeftHand
+      position: {x: -0.0089390585, y: 0.058334928, z: -0.002858886}
+      rotation: {x: -0.03283101, y: -0.0016988278, z: -0.05207188, w: 0.9981021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandRing2
+      parentName: mixamorig:LeftHandRing1
+      position: {x: -0.00000006826083, y: 0.015808595, z: -3.262272e-10}
+      rotation: {x: -0.00000016982744, y: -0.000014550254, z: -0.00052866334, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandRing3
+      parentName: mixamorig:LeftHandRing2
+      position: {x: -0.000016845714, y: 0.016084053, z: 1.1849671e-10}
+      rotation: {x: 0.00000003258969, y: -0.0000061384317, z: 0.001140475, w: 0.99999934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandRing4
+      parentName: mixamorig:LeftHandRing3
+      position: {x: 0.000016913733, y: 0.013893424, z: 1.3295753e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandPinky1
+      parentName: mixamorig:LeftHand
+      position: {x: -0.0179316, y: 0.059405655, z: -0.0014440771}
+      rotation: {x: -0.03202007, y: 0.0136846425, z: -0.052152254, w: 0.9980319}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandPinky2
+      parentName: mixamorig:LeftHandPinky1
+      position: {x: 0.000012480781, y: 0.014286889, z: 2.121844e-10}
+      rotation: {x: -0.000000067471724, y: -0.000015717995, z: -0.0014010967, w: 0.99999905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandPinky3
+      parentName: mixamorig:LeftHandPinky2
+      position: {x: -0.00002330901, y: 0.0117219705, z: 2.9560615e-10}
+      rotation: {x: -0.00000036094215, y: 0.000014256612, z: 0.0014908613, w: 0.9999989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandPinky4
+      parentName: mixamorig:LeftHandPinky3
+      position: {x: 0.0000108280465, y: 0.0107897725, z: 2.4346633e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandThumb1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.01287138, y: 0.013530268, z: 0.001844792}
+      rotation: {x: 0.025240492, y: -0.01391736, z: -0.5007613, w: 0.86510545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandThumb2
+      parentName: mixamorig:LeftHandThumb1
+      position: {x: -0.003391292, y: 0.014624363, z: 3.764792e-10}
+      rotation: {x: 0.000040190298, y: 0.0020119774, z: 0.24507117, w: 0.96950305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandThumb3
+      parentName: mixamorig:LeftHandThumb2
+      position: {x: 0.0044935937, y: 0.016407829, z: 4.6171705e-11}
+      rotation: {x: -0.0003807796, y: -0.0036358177, z: -0.16227183, w: 0.98673934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandThumb4
+      parentName: mixamorig:LeftHandThumb3
+      position: {x: -0.0011023037, y: 0.01876747, z: 1.9610126e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.021578427, y: 0.046270423, z: -0.0026171233}
+      rotation: {x: -0.033117756, y: -0.0071771047, z: -0.051713362, w: 0.9980869}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex2
+      parentName: mixamorig:LeftHandIndex1
+      position: {x: 0.000008086886, y: 0.022536254, z: -2.3020838e-10}
+      rotation: {x: 0.00000042432367, y: -0.0000092376085, z: -0.00020143388, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex3
+      parentName: mixamorig:LeftHandIndex2
+      position: {x: -0.0000010767035, y: 0.020810045, z: 1.12524386e-10}
+      rotation: {x: 0.00000030315204, y: 0.000005982746, z: -0.00015768407, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex4
+      parentName: mixamorig:LeftHandIndex3
+      position: {x: -0.0000070085352, y: 0.019263422, z: 4.4032334e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandMiddle1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.0052922294, y: 0.050471067, z: -0.0033239317}
+      rotation: {x: -0.0328066, y: -0.001243041, z: -0.0521514, w: 0.9980994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandMiddle2
+      parentName: mixamorig:LeftHandMiddle1
+      position: {x: -0.0000034492439, y: 0.023192976, z: 1.4380745e-11}
+      rotation: {x: -0.000000016809393, y: 0.00000037480885, z: 0.000041663647, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandMiddle3
+      parentName: mixamorig:LeftHandMiddle2
+      position: {x: -0.00000072207365, y: 0.021687543, z: -1.5732855e-10}
+      rotation: {x: -0.000000079411556, y: -0.0000016265818, z: 0.00012463331, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandMiddle4
+      parentName: mixamorig:LeftHandMiddle3
+      position: {x: 0.0000041709377, y: 0.01968418, z: -3.2238743e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightShoulder
+      parentName: mixamorig:Spine2
+      position: {x: 0.04180204, y: 0.092409655, z: -0.001080344}
+      rotation: {x: -0.5542025, y: -0.43437493, z: 0.5645027, w: -0.43071416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightArm
+      parentName: mixamorig:RightShoulder
+      position: {x: -3.2010995e-11, y: 0.08722852, z: -5.120837e-10}
+      rotation: {x: -0.12699428, y: 0.052821804, z: 0.0006430652, w: 0.9904958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightForeArm
+      parentName: mixamorig:RightArm
+      position: {x: 2.7358787e-10, y: 0.14194039, z: -5.931657e-10}
+      rotation: {x: -0.000000016244407, y: 0.007374496, z: -0.00000021039638, w: 0.9999728}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHand
+      parentName: mixamorig:RightForeArm
+      position: {x: 0.0000000015630541, y: 0.21881895, z: -0.0000000014851648}
+      rotation: {x: 0.029706853, y: -0.030013956, z: -0.050634623, w: 0.9978241}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandRing1
+      parentName: mixamorig:RightHand
+      position: {x: 0.0082224505, y: 0.061348047, z: -0.0038261442}
+      rotation: {x: -0.027992874, y: -0.0034246242, z: 0.051068626, w: 0.9982969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandRing2
+      parentName: mixamorig:RightHandRing1
+      position: {x: -0.0000173805, y: 0.015939554, z: -1.2212311e-11}
+      rotation: {x: 0.00000025985491, y: 0.0000024437527, z: 0.00014176957, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandRing3
+      parentName: mixamorig:RightHandRing2
+      position: {x: -0.000011891829, y: 0.015326771, z: 2.5041516e-11}
+      rotation: {x: -0.00000011216254, y: 0.000012594472, z: 0.0014208556, w: 0.999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandRing4
+      parentName: mixamorig:RightHandRing3
+      position: {x: 0.000029273018, y: 0.014085817, z: -3.485396e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandPinky1
+      parentName: mixamorig:RightHand
+      position: {x: 0.019370861, y: 0.065479584, z: -0.002288388}
+      rotation: {x: -0.02739759, y: -0.016046386, z: 0.055928417, w: 0.9979298}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandPinky2
+      parentName: mixamorig:RightHandPinky1
+      position: {x: 0.00010287677, y: 0.012931297, z: -4.2018966e-10}
+      rotation: {x: -0.00000059806615, y: -0.0001793541, z: -0.0052849543, w: 0.99998605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandPinky3
+      parentName: mixamorig:RightHandPinky2
+      position: {x: -0.000026933147, y: 0.010365163, z: 2.4848993e-11}
+      rotation: {x: -0.0000006841116, y: 0.00014594615, z: -0.002872331, w: 0.9999959}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandPinky4
+      parentName: mixamorig:RightHandPinky3
+      position: {x: -0.00007594368, y: 0.0091022, z: 1.9061835e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandMiddle1
+      parentName: mixamorig:RightHand
+      position: {x: -0.0059417365, y: 0.05738502, z: -0.0032504909}
+      rotation: {x: -0.028343761, y: 0.0033584747, z: 0.0513874, w: 0.99827087}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandMiddle2
+      parentName: mixamorig:RightHandMiddle1
+      position: {x: -0.0000010883432, y: 0.021826902, z: 8.017409e-12}
+      rotation: {x: -0.00000047312514, y: 0.00000049171695, z: 0.00009813905, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandMiddle3
+      parentName: mixamorig:RightHandMiddle2
+      position: {x: 0.0000029422747, y: 0.019910522, z: -1.02732434e-10}
+      rotation: {x: -0.00000011997977, y: -0.00000010379202, z: -0.00013056397, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandMiddle4
+      parentName: mixamorig:RightHandMiddle3
+      position: {x: -0.0000018529308, y: 0.01810952, z: -2.5015438e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex1
+      parentName: mixamorig:RightHand
+      position: {x: -0.021651575, y: 0.05189908, z: -0.0024381583}
+      rotation: {x: -0.028724248, y: 0.010662936, z: 0.05082872, w: 0.9982373}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex2
+      parentName: mixamorig:RightHandIndex1
+      position: {x: -0.000014599452, y: 0.020098306, z: 2.7999944e-10}
+      rotation: {x: 0.00000029285783, y: 0.000012967725, z: 0.00037312508, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex3
+      parentName: mixamorig:RightHandIndex2
+      position: {x: -0.000000020618808, y: 0.020038385, z: -4.9199898e-11}
+      rotation: {x: -0.000000022019263, y: -0.000017184706, z: 0.00042092803, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex4
+      parentName: mixamorig:RightHandIndex3
+      position: {x: 0.0000146201355, y: 0.017818378, z: -1.5293686e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandThumb1
+      parentName: mixamorig:RightHand
+      position: {x: -0.013579678, y: 0.012795455, z: 0.00060539774}
+      rotation: {x: 0.039520748, y: 0.013257638, z: 0.48365793, w: 0.87426394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandThumb2
+      parentName: mixamorig:RightHandThumb1
+      position: {x: 0.002865018, y: 0.014657082, z: -3.3323339e-10}
+      rotation: {x: 0.00028526725, y: 0.004936491, z: -0.13492715, w: 0.9908432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandThumb3
+      parentName: mixamorig:RightHandThumb2
+      position: {x: -0.0014020962, y: 0.018019564, z: -1.14383454e-10}
+      rotation: {x: 0.00043063652, y: -0.005465678, z: -0.0009781559, w: 0.9999845}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandThumb4
+      parentName: mixamorig:RightHandThumb3
+      position: {x: -0.0014629213, y: 0.018340494, z: -1.806839e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Neck
+      parentName: mixamorig:Spine2
+      position: {x: -0, y: 0.11508078, z: -0.000000002907857}
+      rotation: {x: 0.021914845, y: 3.7639844e-14, z: 2.2825345e-13, w: 0.99975985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Head
+      parentName: mixamorig:Neck
+      position: {x: -0, y: 0.117492214, z: 0.033194672}
+      rotation: {x: 0, y: 0, z: 1.6921017e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:HeadTop_End
+      parentName: mixamorig:Head
+      position: {x: -0, y: 0.120991364, z: 0.03418328}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: b36d3a10c36e45f42b2ab755be0b9cb2, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
