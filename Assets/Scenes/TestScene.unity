@@ -2300,7 +2300,7 @@ MonoBehaviour:
   multiAimConstraint: {fileID: 754535699}
   targetTransform: {fileID: 2135819837}
   idlePos: {x: 0.02024938, y: 0.03134882, z: -0.01413997}
-  idleRot: {x: 0, y: 0, z: 0}
+  idleRot: {x: -19.93, y: 155.854, z: -61.139}
   walkPos: {x: 0, y: 0, z: 0}
   walkRot: {x: 0, y: 0, z: 0}
   runPos: {x: 0, y: 0, z: 0}

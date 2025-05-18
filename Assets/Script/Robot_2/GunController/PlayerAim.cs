@@ -10,12 +10,7 @@ public class PlayerAim : MonoBehaviour
     public MultiAimConstraint multiAimConstraint;
     public Transform targetTransform;
 
-    public Vector3 idlePos;
-    public Vector3 idleRot;
-    public Vector3 walkPos;
-    public Vector3 walkRot;
-    public Vector3 runPos;
-    public Vector3 runRot;
+
 
     void Start()
     {
@@ -39,28 +34,7 @@ public class PlayerAim : MonoBehaviour
                 multiAimConstraint.weight = 0f;
             }
         }
-
-        UpdateTargetTransform();
     }
 
-    void UpdateTargetTransform()
-    {
-        switch (playerController.currentState)
-        {
-            case PlayerState.Idle:
-                targetTransform.localPosition = idlePos;
-                targetTransform.localEulerAngles = idleRot;
-                break;
 
-            case PlayerState.Walking:
-                targetTransform.localPosition = walkPos;
-                targetTransform.localEulerAngles = walkRot;
-                break;
-
-            case PlayerState.Running:
-                targetTransform.localPosition = runPos;
-                targetTransform.localEulerAngles = runRot;
-                break;
-        }
-    }
 }
