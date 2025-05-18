@@ -38,9 +38,11 @@ public class RoborFireController : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (fire && timer > sFireRate)
+        if (fire)
         {
             controller.StopAgent();
+
+            if (timer < sFireRate) return;
 
             if (multiFire)
             {

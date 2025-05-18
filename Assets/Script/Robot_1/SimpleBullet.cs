@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class SimpleBullet : MonoBehaviour
 {
+    public GameObject effect;
+
     Rigidbody rb;
 
     private void Awake()
@@ -18,6 +20,7 @@ public class SimpleBullet : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         CameraShake.Instance.Shake();
+        Instantiate(effect,transform.position,Quaternion.identity);
         Destroy(gameObject);
     }
 }
