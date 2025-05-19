@@ -45,7 +45,7 @@ public class IKFootSolver : MonoBehaviour
         if (stepDirection == Vector3.zero)
             stepDirection = body.forward; // Hareketsizse varsayýlan yön
 
-        Vector3 rayOrigin = body.position + (body.right * footSpacing) + stepDirection * 2;
+        Vector3 rayOrigin = body.position + (body.right * footSpacing) + stepDirection * 4;
 
         Ray ray = new Ray(rayOrigin, Vector3.down);
         if (Physics.Raycast(ray, out RaycastHit hit, 10, terrainLayer.value))
