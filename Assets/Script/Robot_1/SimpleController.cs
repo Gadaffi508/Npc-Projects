@@ -11,7 +11,7 @@ public class SimpleController : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
 
-        agent.SetDestination(movePos.position);
+        //agent.SetDestination(movePos.position);
     }
 
     public void StopAgent()
